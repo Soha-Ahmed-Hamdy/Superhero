@@ -11,7 +11,8 @@ import SwiftUI
 struct SuperheroApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
+            //ContentView()
         }
     }
 }

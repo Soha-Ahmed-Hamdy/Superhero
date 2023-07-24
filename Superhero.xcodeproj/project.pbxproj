@@ -11,6 +11,11 @@
 		CF828AD92A6EB0F100BE50FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828AD82A6EB0F100BE50FD /* ContentView.swift */; };
 		CF828ADB2A6EB0F300BE50FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF828ADA2A6EB0F300BE50FD /* Assets.xcassets */; };
 		CF828ADE2A6EB0F300BE50FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF828ADD2A6EB0F300BE50FD /* Preview Assets.xcassets */; };
+		CF828AE52A6EB11D00BE50FD /* SuperheroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828AE42A6EB11D00BE50FD /* SuperheroView.swift */; };
+		CF828AE72A6ECF4500BE50FD /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828AE62A6ECF4500BE50FD /* SuperHero.swift */; };
+		CF832D452A6EF73F0050514E /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF832D442A6EF73F0050514E /* AudioPlayer.swift */; };
+		CF832D472A6EF9290050514E /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF832D462A6EF9290050514E /* chimeup.mp3 */; };
+		CF832D4F2A6F04000050514E /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF832D4E2A6F04000050514E /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,12 @@
 		CF828AD82A6EB0F100BE50FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CF828ADA2A6EB0F300BE50FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF828ADD2A6EB0F300BE50FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF828AE42A6EB11D00BE50FD /* SuperheroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroView.swift; sourceTree = "<group>"; };
+		CF828AE62A6ECF4500BE50FD /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
+		CF832D442A6EF73F0050514E /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		CF832D462A6EF9290050514E /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
+		CF832D4D2A6EFC4D0050514E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CF832D4E2A6F04000050514E /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +62,15 @@
 		CF828AD52A6EB0F100BE50FD /* Superhero */ = {
 			isa = PBXGroup;
 			children = (
-				CF828AD62A6EB0F100BE50FD /* SuperheroApp.swift */,
-				CF828AD82A6EB0F100BE50FD /* ContentView.swift */,
+				CF832D4D2A6EFC4D0050514E /* Info.plist */,
+				CF832D4C2A6EFB7B0050514E /* Sound */,
+				CF832D4B2A6EFB360050514E /* View */,
+				CF832D4A2A6EFB2F0050514E /* Model */,
+				CF832D492A6EFB1F0050514E /* Componants */,
+				CF832D482A6EFB160050514E /* Utilites */,
 				CF828ADA2A6EB0F300BE50FD /* Assets.xcassets */,
 				CF828ADC2A6EB0F300BE50FD /* Preview Content */,
+				CF832D4E2A6F04000050514E /* SplashScreenView.swift */,
 			);
 			path = Superhero;
 			sourceTree = "<group>";
@@ -65,6 +81,47 @@
 				CF828ADD2A6EB0F300BE50FD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF832D482A6EFB160050514E /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				CF832D442A6EF73F0050514E /* AudioPlayer.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		CF832D492A6EFB1F0050514E /* Componants */ = {
+			isa = PBXGroup;
+			children = (
+				CF828AE42A6EB11D00BE50FD /* SuperheroView.swift */,
+			);
+			path = Componants;
+			sourceTree = "<group>";
+		};
+		CF832D4A2A6EFB2F0050514E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF828AE62A6ECF4500BE50FD /* SuperHero.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF832D4B2A6EFB360050514E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF828AD62A6EB0F100BE50FD /* SuperheroApp.swift */,
+				CF828AD82A6EB0F100BE50FD /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF832D4C2A6EFB7B0050514E /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				CF832D462A6EF9290050514E /* chimeup.mp3 */,
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF832D472A6EF9290050514E /* chimeup.mp3 in Resources */,
 				CF828ADE2A6EB0F300BE50FD /* Preview Assets.xcassets in Resources */,
 				CF828ADB2A6EB0F300BE50FD /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +197,10 @@
 			files = (
 				CF828AD92A6EB0F100BE50FD /* ContentView.swift in Sources */,
 				CF828AD72A6EB0F100BE50FD /* SuperheroApp.swift in Sources */,
+				CF832D452A6EF73F0050514E /* AudioPlayer.swift in Sources */,
+				CF828AE52A6EB11D00BE50FD /* SuperheroView.swift in Sources */,
+				CF828AE72A6ECF4500BE50FD /* SuperHero.swift in Sources */,
+				CF832D4F2A6F04000050514E /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,9 +331,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Superhero/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Superhero/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -297,9 +362,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Superhero/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Superhero/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
