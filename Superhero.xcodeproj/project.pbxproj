@@ -70,7 +70,6 @@
 				CF832D482A6EFB160050514E /* Utilites */,
 				CF828ADA2A6EB0F300BE50FD /* Assets.xcassets */,
 				CF828ADC2A6EB0F300BE50FD /* Preview Content */,
-				CF832D4E2A6F04000050514E /* SplashScreenView.swift */,
 			);
 			path = Superhero;
 			sourceTree = "<group>";
@@ -110,6 +109,7 @@
 		CF832D4B2A6EFB360050514E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CF832D4E2A6F04000050514E /* SplashScreenView.swift */,
 				CF828AD62A6EB0F100BE50FD /* SuperheroApp.swift */,
 				CF828AD82A6EB0F100BE50FD /* ContentView.swift */,
 			);
